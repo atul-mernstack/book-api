@@ -15,6 +15,12 @@ app.use(express.json());
 
 app.use("/api/v1", book);
 
+app.get("*",(req,res)=>{
+    res.status(201).json({
+        success: true,
+        message:"Working fine!"
+    });
+})
 
 
 module.exports = app;
