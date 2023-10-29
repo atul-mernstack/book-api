@@ -22,7 +22,7 @@ exports.createBook = async (req, res) => {
 exports.getAllBooks = async (req, res) => {
     try {
         const books = await Book.find();
-        if (!books) {
+        if (Array.isArray(books) && books.length==0) {
             res.status(404).json({
                 success: false,
                 message: "Books not found!"
