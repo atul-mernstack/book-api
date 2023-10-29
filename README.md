@@ -1,7 +1,7 @@
 # book-api
 1. Pull the code from github main branch to local.<br>
 2. Open the code in any editor like VS Code.<br>
-3. Add the .env file inside config folder and create variable PORT and DB_URI and give the value.
+3. Add the .env file inside config folder and create variable PORT and DB_URI and give the appropriate value.
 4. Run "npm install" command inside your app directory (i.e. where package.json is located) will install the reuired dependencies for the application.<br><br>
 
 # End Points<br>
