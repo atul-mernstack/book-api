@@ -17,7 +17,11 @@
     Delete a book
 
 
-   # Run App
-   1. Run the command "npm start" in terminal(where server.js is located).
+# Run App
+1. Run the command "npm start" in terminal(where server.js is located).
   
-   # Deployment
+# Deployment
+1. Buy a domain and vmware (ubuntu os) on google cloud .
+2. Colne the git repo, install required dependencies and start node js server
+3. Install nginx for respond to network requests.
+4. Configure nginx config.
